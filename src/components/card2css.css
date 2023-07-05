@@ -1,0 +1,16 @@
+*{
+    /* color:red; */
+}
+
+.cardDiv2{
+    color:red;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.featureBlock1{
+    max-width: 760px;
+    /* flex-direction: column;
+    align-items: center; */
+}

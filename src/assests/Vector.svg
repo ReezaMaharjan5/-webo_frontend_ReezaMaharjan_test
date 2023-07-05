@@ -1,0 +1,65 @@
+<svg width="156" height="156" viewBox="0 0 156 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" filter="url(#filter0_d_0_88)">
+<path d="M4 0H8V4H4V0Z" fill="#C4C4C4"/>
+<path d="M28 0H32V4H28V0Z" fill="#C4C4C4"/>
+<path d="M52 0H56V4H52V0Z" fill="#C4C4C4"/>
+<path d="M76 0H80V4H76V0Z" fill="#C4C4C4"/>
+<path d="M100 0H104V4H100V0Z" fill="#C4C4C4"/>
+<path d="M124 0H128V4H124V0Z" fill="#C4C4C4"/>
+<path d="M148 0H152V4H148V0Z" fill="#C4C4C4"/>
+<path d="M4 24H8V28H4V24Z" fill="#C4C4C4"/>
+<path d="M28 24H32V28H28V24Z" fill="#C4C4C4"/>
+<path d="M52 24H56V28H52V24Z" fill="#C4C4C4"/>
+<path d="M76 24H80V28H76V24Z" fill="#C4C4C4"/>
+<path d="M100 24H104V28H100V24Z" fill="#C4C4C4"/>
+<path d="M124 24H128V28H124V24Z" fill="#C4C4C4"/>
+<path d="M148 24H152V28H148V24Z" fill="#C4C4C4"/>
+<path d="M4 48H8V52H4V48Z" fill="#C4C4C4"/>
+<path d="M28 48H32V52H28V48Z" fill="#C4C4C4"/>
+<path d="M52 48H56V52H52V48Z" fill="#C4C4C4"/>
+<path d="M76 48H80V52H76V48Z" fill="#C4C4C4"/>
+<path d="M100 48H104V52H100V48Z" fill="#C4C4C4"/>
+<path d="M124 48H128V52H124V48Z" fill="#C4C4C4"/>
+<path d="M148 48H152V52H148V48Z" fill="#C4C4C4"/>
+<path d="M4 72H8V76H4V72Z" fill="#C4C4C4"/>
+<path d="M28 72H32V76H28V72Z" fill="#C4C4C4"/>
+<path d="M52 72H56V76H52V72Z" fill="#C4C4C4"/>
+<path d="M76 72H80V76H76V72Z" fill="#C4C4C4"/>
+<path d="M100 72H104V76H100V72Z" fill="#C4C4C4"/>
+<path d="M124 72H128V76H124V72Z" fill="#C4C4C4"/>
+<path d="M148 72H152V76H148V72Z" fill="#C4C4C4"/>
+<path d="M4 96H8V100H4V96Z" fill="#C4C4C4"/>
+<path d="M28 96H32V100H28V96Z" fill="#C4C4C4"/>
+<path d="M52 96H56V100H52V96Z" fill="#C4C4C4"/>
+<path d="M76 96H80V100H76V96Z" fill="#C4C4C4"/>
+<path d="M100 96H104V100H100V96Z" fill="#C4C4C4"/>
+<path d="M124 96H128V100H124V96Z" fill="#C4C4C4"/>
+<path d="M148 96H152V100H148V96Z" fill="#C4C4C4"/>
+<path d="M4 120H8V124H4V120Z" fill="#C4C4C4"/>
+<path d="M28 120H32V124H28V120Z" fill="#C4C4C4"/>
+<path d="M52 120H56V124H52V120Z" fill="#C4C4C4"/>
+<path d="M76 120H80V124H76V120Z" fill="#C4C4C4"/>
+<path d="M100 120H104V124H100V120Z" fill="#C4C4C4"/>
+<path d="M124 120H128V124H124V120Z" fill="#C4C4C4"/>
+<path d="M148 120H152V124H148V120Z" fill="#C4C4C4"/>
+<path d="M4 144H8V148H4V144Z" fill="#C4C4C4"/>
+<path d="M28 144H32V148H28V144Z" fill="#C4C4C4"/>
+<path d="M52 144H56V148H52V144Z" fill="#C4C4C4"/>
+<path d="M76 144H80V148H76V144Z" fill="#C4C4C4"/>
+<path d="M100 144H104V148H100V144Z" fill="#C4C4C4"/>
+<path d="M124 144H128V148H124V144Z" fill="#C4C4C4"/>
+<path d="M148 144H152V148H148V144Z" fill="#C4C4C4"/>
+</g>
+<defs>
+<filter id="filter0_d_0_88" x="0" y="0" width="156" height="156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_88"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_88" result="shape"/>
+</filter>
+</defs>
+</svg>

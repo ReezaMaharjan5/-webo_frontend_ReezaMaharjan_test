@@ -1,0 +1,48 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+  padding: 95px 65px 40px 42px;
+  border-radius: 20px;
+  width: 100%;
+  border: solid 1px;
+}
+
+.number {
+  position: absolute;
+  top: 21px;
+  left: 22px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.imagebox {
+  position: relative;
+
+  /* left: 22px;
+    top: 21px; */
+}
+
+.cardheading {
+  position: relative;
+  text-align: center;
+  padding: 34px 62px 17px 42px;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: -0.9px;
+  font-size: 30px;
+  width: 316px;
+}
+
+.cardparagraph {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+  font-size: 14px;
+  max-width: 270px;
+  color: #757095;
+}
