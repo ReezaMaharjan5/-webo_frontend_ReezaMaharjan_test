@@ -205,3 +205,9 @@ a{
     line-height: 24px;
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 992px) {
+    .mainFooterContainer{
+        flex-direction: row;
+    }
+}

@@ -4,7 +4,7 @@ import "./cardcss.css";
 
 const Card = (props) => {
   return (
-    <div className="cardContainer" key={props.key}>
+    <div className="cardContainer secondcard" key={props.key}>
       <span className="number">{props.number}</span>
       {/* <img src={props.image} alt="no image" /> */}
       <div className="imagebox">
