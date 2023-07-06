@@ -29,7 +29,10 @@ a:hover{
   position: relative;
   width: 100%;
 }
-
+/* .menuBar2{
+  max-height: 80px;
+  max-width: 8px;
+} */
 .navBarContainer{
   display: flex;
   justify-content:  space-between;
@@ -370,14 +373,8 @@ a:hover{
 .infoexpense{
   display: flex;
   flex-direction: column;
-  /* top: 16px;
-  left: 87px; */
 }
 
-.profileImage{
-  /* top: 0px;
-  left: 0px; */
-}
 .receivedFrom{
   color: #757095;
   font-size: 14px;
@@ -638,8 +635,6 @@ letter-spacing: -0.36px;
   position: absolute;
   left: 361px;
   top: 2.5px;
-  /* color:  */
-  /* padding: 2.5px 1181px 2px 321px; */
 }
 
 .headingStat{
@@ -662,6 +657,56 @@ letter-spacing: -0.36px;
 }
 
 @media screen and (max-width: 1200px) {
+  .handCardImage, .bargraph, .dash1, .wrappper5right, .handcard2 {
+    display: none;
+  }
+
+  .menuBar2{
+    display: none;
+  }
+  .featureBlock1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .wrapper5container{
+    /* margin-top: 280px; */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 40px;
+  }
+  .wrapper4container{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .wrapper6Container{
+    padding: 0% 8%;
+
+  }
+  .verticalBlackLine{
+    display: none;
+  }
+  .cardDiv, .cardContainer{
+    align-items: center;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .cardDiv .cardContainer, .topFooterBlue{
+    /* max-width: 380px; */
+    display: none;
+  }
+  
 }
 
 
@@ -676,4 +721,13 @@ letter-spacing: -0.36px;
     /* height: 100px; */
     width: 100px;
   }
+  
+  @media screen and (max-width: 768px) {
+    /* .menuBar2{
+        display: block;
+    } */
+
+  }
+
+ 
 }

@@ -207,7 +207,13 @@ a{
 }
 
 @media screen and (max-width: 992px) {
-    .mainFooterContainer{
-        flex-direction: row;
+    .middleFoooter{
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 40px;
+            
     }
 }

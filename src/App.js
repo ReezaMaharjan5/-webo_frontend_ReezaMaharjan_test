@@ -36,10 +36,8 @@ import bluetickIcon from "./assests/bluetick.svg";
 import orangetickIcon from "./assests/orangetick.svg";
 import dropdown from "./assests/dropdown.svg";
 import quoteIcon from "./assests/1double.svg";
+import menuIcon from "./assests/menuicon.png";
 
-//images of small box icons
-import orange1 from "./assests/orangebox1.svg";
-import dummyImage from "./assests/GroupYellow.svg";
 
 import bargraph from "./assests/bargraph.svg";
 import dash1 from "./assests/1dash.svg";
@@ -55,6 +53,8 @@ import Card from "./components/card1";
 import CardFeatures from "./components/card2";
 
 function App() {
+
+  //array for the business with Ar Shakir
   const array = [
     business2,
     business1,
@@ -64,6 +64,8 @@ function App() {
     business6,
     business7,
   ];
+
+  //array for the first card with image
   const cardArray = [
     {
       number: "01",
@@ -87,6 +89,8 @@ function App() {
         "Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. ",
     },
   ];
+
+  //array for the first card with image
   const cardArray2 = [
     {
       title: "Really boy law county she unable her sister",
@@ -104,9 +108,18 @@ function App() {
 
   return (
     <>
+      {/* main content of the website in jsx form */}
+
       <div className="mainContainer">
+
+        {/* header content */}
         <div className="wrapper1Container">
+
+        {/* the content of nav bar */}
           <div className="navBarContainer">
+            <div className="menuBar2">
+              <img src={menuIcon} alt="MENU ICON" />
+            </div>
             <div className="navLogoImage">
               <img src={Vector} alt="logo of AR SHAKIR" />
             </div>
@@ -156,6 +169,7 @@ function App() {
               </button>
             </div>
           </div>
+
           <div className="leftrightcontainer">
             <div className="leftContent1">
               <p className="heading1">
@@ -176,7 +190,7 @@ function App() {
                     </a>
                   </button>
                 </div>
-                {/*     padding: 16px 19px; */}
+
                 <div className="leftContain1">
                   <img
                     className="videoHowWorks"
@@ -215,6 +229,8 @@ function App() {
               </div>
             </div>
 
+
+            {/* background images of header portion */}
             <img src={cross1} className="cross1" alt="backgroung vector" />
             <img src={thumb1} className="thumb1" alt="backgroung vector" />
             <img src={dot1} className="dot1" alt="backgroung vector" />
@@ -225,12 +241,16 @@ function App() {
           <p className="centerHeading1">
             Over 32k+ software businesses growing with AR Shakir.
           </p>
+
+          {/* logo of business linked with the company */}
           <div className="logoSotwareBusiness">
             {array.map((data, index) => (
               <img src={data} alt="logo of Sotware Business" key={index} />
             ))}
           </div>
         </div>
+
+        {/* third banner of the web site */}
         <div className="thirdBanner">
           <div className="leftThirdSide">
             <div className="leftHeading3">
@@ -254,12 +274,14 @@ function App() {
           </div>
         </div>
 
+        {/* first card of the blocks with images */}
         <div className="cardDiv">
           {cardArray.map((data, index) => (
             <Card key={index} {...data} />
           ))}
         </div>
 
+         {/* fourth banner of the web site */}
         <div className="wrapper4container">
           <div className="wrapper4left">
             <div className="blueTrackPayments">
@@ -272,6 +294,7 @@ function App() {
               />
               <img src={circle1} className="circle2" alt="orange tick icon" />
 
+              {/* floating blocks in the image in the left content */}
               <div className="floatwrap block1">
                 <div className="profileImage">
                   <img
@@ -354,14 +377,14 @@ function App() {
 
             <div className="wrapper4check">
               <div className="wrapper4list">
-                {/* <span> */}
+          
                 <img
                   src={orangetickIcon}
                   className="orangetick"
                   alt="orange tick icon"
                 />
                 Get Overview at a glance
-                {/* </span> */}
+            
               </div>
               <div className="wrapper4list">
                 <img
@@ -382,7 +405,8 @@ function App() {
             </div>
           </div>
         </div>
-
+        
+        {/* fifth banner of the web site */}
         <div className="wrapper5container">
           <div className="wrappper5left">
             <div className="whyHeading">Why Choose Us</div>
@@ -411,11 +435,14 @@ function App() {
             <div className=""></div>
             <div className=""></div>
           </div>
+
+          {/* hovering images of the right side container */}
           <img src={dash1} className="dash1" alt="background line" />
           <img src={card2} className="handcard2" alt="a hand holding card " />
           <img src={bargraph} className="bargraph" alt="orange tick icon" />
         </div>
-
+        
+        {/* sixth banner of the web site */}
         <div className="wrapper6Container">
           <div className="wraper6top">
             <div className="Wrapper6topHeading">Features that blows mind</div>
@@ -427,6 +454,8 @@ function App() {
 
             <div className="featureContainer">
               <div className="featureBlock1">
+
+                {/* second card of the blocks with images */}
                 <div className="cardDiv2">
                   {cardArray2.map((data, index) => (
                     <CardFeatures key={index} {...data} />
@@ -447,7 +476,8 @@ function App() {
             </div>
           </div>
         </div>
-
+        
+        {/* seventh banner of the web site */}
         <div className="wrapper7Container">
           <div className="verticalBlackLine"></div>
           <div className="blueStatistics">
@@ -484,6 +514,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* footer portion of the website from another jsx file */}
       <Footer />
     </>
   );
