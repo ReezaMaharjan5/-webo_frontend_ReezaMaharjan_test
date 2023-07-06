@@ -19,6 +19,8 @@ a{
   background-image: linear-gradient(#62BADA, #C9E7F2);
   padding: 0px 110px 0px 110px;
   padding-top: 49px;
+  position: relative;
+  width: 100%;
 }
 
 .navBarContainer{
@@ -28,6 +30,7 @@ a{
   height: 52px;
   padding-top: 2px;
   font-size: 14px;
+  z-index: 0;
   /* padding: 49px  0px 0px 0px; */
 }
 
@@ -98,26 +101,91 @@ a{
 
 .leftContain1{
   font-size: 17px;
-  padding-top: 15px;
+  margin-top: -40px;
   color: #3734A9;
 }
 
+.videoHowWorks{
+  margin-top: 12px;
+}
 
 .logoSotwareBusiness{
   display: flex;
   justify-content: space-between;
 }
 
+.handCardImage{
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+  right: 187px;
+}
+
+.bluetick{
+  padding-right: 8px;
+}
+
+.greenCircle{
+  padding-right: 11px;
+}
+
+.dropdown{
+  padding-left: 12px;
+}
+
+.cross1{
+  position: absolute;
+  top: 198px;
+  right: 0px;
+}
+
+.thumb1{
+  position: absolute;
+  right:0px;
+  top: 709px;
+}
+
+.dot1{
+  position: absolute;
+  left:0px;
+  top: 711px;
+}
+
+.orangetick{
+  padding-right: 11px;
+  padding-bottom: 0px;
+}
+
+.dash1{
+  position: absolute;
+  top: 53px;
+  left: 429px;
+}
+
+.bargraph{
+  position: absolute;
+  top: 243px;
+
+}
+
+.handcard2{
+  position: absolute;
+  top: 30px;
+  /* left: 790px; */
+  /* right: 130px; */
+}
 .wrapper2Container{
   background-color: #F5F6F8;
   width: 100%;
   height: 239px;
   padding: 64px 95px 76px 87px;
+  z-index: 3;
 }
+
 .leftContent1B1{
   display: flex;
   justify-content: space-between;
-  max-width: 342px;
+  max-width: 415px;
 }
 
 .leftContent1B2{
@@ -202,6 +270,17 @@ a{
   margin-top: -17px;
   max-width: 334px;
   font-size: 15px;
+  position: relative;
+}
+.wrapper5left2{
+  position: relative;
+
+}
+.quoteIcon{
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  z-index: 5;
 }
 .rightAuthor{
   top: 131px;
@@ -246,6 +325,91 @@ a{
   justify-content: space-between;
   margin-left: -90px;
 
+}
+
+.floatwrap{
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  padding:0;
+  border-radius: 10px ;
+  width: 433px;
+  height: 85px;
+  box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.01), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.02), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+}
+
+.expenseAmount{
+  padding: 8px 10px 4px 11px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  letter-spacing: -0.3px;
+  color: #3734A9;
+  background-color: #efefef;
+  position: relative;
+}
+
+.infoexpense{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 16px;
+  left: 87px;
+}
+
+.profileImage{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.receivedFrom{
+  color: #757095;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.28px;
+}
+.wrapper4container{
+  position: relative;
+}
+
+.purplebg{
+  position: absolute;
+  top: 134px;
+  left: 460px;
+  z-index: 0;
+}
+
+.orangebg{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  z-index: 0;
+}
+
+.greenbg{
+  position: absolute;
+  top: 343px;
+  left: 0px;
+  border-bottom-left-radius: 20px;
+  z-index: 0;
+}
+
+.circle1{
+  position: absolute;
+  top: 48px;
+  left: 475px;
+  z-index: 4;
+}
+
+.wrapper5container{
+  display: flex;
+  justify-content: center;
+  gap: 103px;
+  width:  1171px;
+  position: relative;
 }
 
 .head45{
@@ -375,6 +539,7 @@ letter-spacing: -0.36px;
   background-color: #3734A9;
   padding: 69px 158px 63px 149px;
   position: relative;
+  margin-top: 150px;
   
 }
 
@@ -382,6 +547,10 @@ letter-spacing: -0.36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.smallicon1{
+  padding-right: 16px;
 }
 .onelineStatement{
   color: #FFF;

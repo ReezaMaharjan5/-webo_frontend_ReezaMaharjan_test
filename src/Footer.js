@@ -1,10 +1,18 @@
 import "./footercss.css"
 
+//images of background vectors
 import uppercrease from "./assests/Group 268.svg";
 import lowercrease from "./assests/Group 277.svg";
 import bigSemiCircle from "./assests/Group 278.svg";
 import smallSemiCircle from "./assests/Group 269.svg";
 import dotsVector from "./assests/Vector.svg";
+
+//images of socialmedia
+import messenger from "./assests/messenger.svg";
+import linkedin from "./assests/linkedin.svg";
+import twitter from "./assests/twitter.svg";
+import infinity from "./assests/infinity.svg";
+
 
 
 
@@ -50,10 +58,26 @@ function Footer() {
                         </div>
 
                         <div className="footerIcon">
-                            <div className="instagramIcon">i</div>
-                            <div className="messengerIcon">m</div>
-                            <div className="twitterIcon">t</div>
-                            <div className="socialmediaIcon">i</div>
+                            <div className="linkedinIcon">
+                                <a href="#a"target="_blank">
+                                    <img src = {linkedin} alt="instagram"/>
+                                </a>
+                            </div>
+                            <div className="messengerIcon">
+                                <a href="#a"target="_blank">
+                                    <img src = {messenger} alt="messenger"/>
+                                </a>
+                            </div>
+                            <div className="twitterIcon">
+                                <a href="#a"target="_blank">
+                                    <img src = {twitter} alt="twitter"/>
+                                </a>
+                            </div>
+                            <div className="socialmediaIcon">
+                                <a href="#a"target="_blank">
+                                    <img src = {infinity} alt="infinity"/>
+                                </a>
+                            </div>
                         </div> 
                     </div>
 
@@ -62,10 +86,10 @@ function Footer() {
                             Company
                         </div>
                         <div className="footerContain2">
-                            <div class="footer_cont"><a href="#a">About us</a></div>
-                            <div class="footer_cont"><a href="#a">Careers</a></div>
-                            <div class="footer_cont"><a href="#a">Blog</a></div>
-                            <div class="footer_cont"><a href="#a">Pricing</a></div>
+                            <div class="footer_cont"><a href="#a" target="_blank">About us</a></div>
+                            <div class="footer_cont"><a href="#a" target="_blank">Careers</a></div>
+                            <div class="footer_cont"><a href="#a" target="_blank">Blog</a></div>
+                            <div class="footer_cont"><a href="#a"target="_blank">Pricing</a></div>
                         </div>
                     </div>
 

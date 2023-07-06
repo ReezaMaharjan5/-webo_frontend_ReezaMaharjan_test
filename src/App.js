@@ -1,12 +1,57 @@
-// import logo from "./logo.svg";
+//main page for jsx for the e-commerce website of AR SHIKIR
+//images of logo
 import Vector from "./assests/AR Shakir.svg";
-import business1 from "./assests/Group (1).png";
-import business2 from "./assests/Group.png";
-import business3 from "./assests/Group (2).png";
-import business4 from "./assests/Group (3).png";
-import business5 from "./assests/Group (4).png";
-import business6 from "./assests/Group (5).png";
-import business7 from "./assests/Group (6).png";
+import business1 from "./assests/img1.svg";
+import business2 from "./assests/img2.svg";
+import business3 from "./assests/img3.svg";
+import business4 from "./assests/img4.svg";
+import business5 from "./assests/img5.svg";
+import business6 from "./assests/img6.svg";
+import business7 from "./assests/img7.svg";
+
+//images of hand holding cards
+import card1 from "./assests/handcard.svg";
+import card2 from "./assests/handcard1.svg";
+
+//vector backgrounds
+import cross1 from "./assests/1cross.svg";
+import thumb1 from "./assests/1thumb.svg";
+import circle1 from "./assests/1circle.svg";
+import dot1 from "./assests/1dot.svg";
+import orangebg from "./assests/orangesemicircle.svg";
+import greenbg from "./assests/greensemicircle.svg";
+import purplebg from "./assests/purplehalf.svg";
+
+//image of profile tracking payments
+import face1 from "./assests/face1.svg";
+import face2 from "./assests/face2.svg";
+import face3 from "./assests/face3.svg";
+import face4 from "./assests/face4.svg";
+
+
+
+//images of small icons
+import starIcon from "./assests/star.svg";
+import manIcon from "./assests/man.svg";
+import greencircleplay from "./assests/greencircle1.svg";
+import bluetickIcon from "./assests/bluetick.svg";
+import orangetickIcon from "./assests/orangetick.svg";
+import dropdown from "./assests/dropdown.svg";
+import quoteIcon from "./assests/1double.svg";
+
+
+//images of small box icons
+import orange1 from "./assests/orangebox1.svg";
+import dummyImage from "./assests/GroupYellow.svg";
+
+
+
+import bargraph from "./assests/bargraph.svg";
+import dash1 from "./assests/1dash.svg";
+
+
+
+
 
 // import Yellow2 from "./assests/GroupYellow.svg";
 import Yellow2 from "./assests/AR Shakir.svg";
@@ -31,7 +76,7 @@ function App() {
     {
       number: "01",
       title: "Connect wallets & companies",
-      image: { Yellow2 },
+      image: "orange1",
       paragraph:
         "Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. ",
     },
@@ -72,15 +117,16 @@ function App() {
           <div className="navLogoImage">
             <img src={Vector} alt="logo of AR SHAKIR" />
           </div>
+
           <div className="navBarLinks">
             <p>
               <a href="" target="_blank">
-                Product
+                Product <img src = {dropdown} className="dropdown" alt="dropdown icon" />
               </a>
             </p>
             <p>
               <a href="" target="_blank">
-                Template
+                Template <img src = {dropdown} className="dropdown" alt="dropdown icon" />
               </a>
             </p>
             <p>
@@ -90,7 +136,7 @@ function App() {
             </p>
             <p>
               <a href="" target="_blank">
-                Price
+                Pricing
               </a>
             </p>
           </div>
@@ -111,32 +157,42 @@ function App() {
             </p>
 
             <div className="leftContent1B1">
+              <div className="buttonblue">
               <button className="getStartedButton" type="button"><a href = "" target = "_blank"> Get Started </a></button>
-
+              </div>
               <div className="leftContain1">
                 <a href="#" target="_blank">
-                {/* <i class="fa-solid fa-circle-play" style="color: #22d497;"/> */}
-                  See How It Works
+                  <img className="videoHowWorks" src={greencircleplay} alt="green play icon"/>
+                  <span >See How It Works</span>
                 </a>
               </div>
             </div>
 
             <div className="leftContent1B2">
-              <p>Free Register</p>
-              <p>Great Service</p>
+              <p><img src = {bluetickIcon} className="bluetick" alt="blue tick icon" />Free Register</p>
+              <p><img src = {bluetickIcon} className="bluetick" alt="blue tick icon" />Great Service</p>
             </div>
           </div>
 
           <div className="rightContent1">
-            <img
-              src="./assets/image 57.png"
-              alt="hand holding credit card 1"
-            ></img>
+                
+            <div className="handCardImage">
+              <img src={card1} alt="hand holding credit card 1"/>
+            </div>
+            {/*             
             <img src="" alt="hand holding credit card 2"></img>
-            <img src="" alt="your one stop banking solution"></img>
+            <img src="" alt="your one stop banking solution"></img> */}
           </div>
+
+          <img src = {cross1} className="cross1" alt="backgroung vector" />
+          <img src = {thumb1} className="thumb1" alt="backgroung vector" />
+          <img src = {dot1} className="dot1" alt="backgroung vector" />
+
+
         </div>
       </div>
+
+
 
       <div className="wrapper2Container">
         <p className="centerHeading1">
@@ -158,6 +214,9 @@ function App() {
               </div>
             </div>
             <div className = "rightThirdSide">
+              <div className="quoteIcon">
+                <img src = {quoteIcon}/>
+              </div>
               <div className ="rightParagraph">
                 Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows adapted sir. Wrong widen.
               </div>
@@ -179,7 +238,34 @@ function App() {
       <div className = "wrapper4container">
         <div className = "wrapper4left">
           <div className="blueTrackPayments">
-            
+            <img src = {orangebg} className="orangebg" alt="background line" />
+            <img src = {greenbg} className="greenbg" alt="background line" />
+            <img src = {purplebg} className="purplebg" alt="a hand holding card " />
+            <img src = {circle1} className="circle1" alt="orange tick icon" />
+
+            <div className="floatwrap block1">
+              <div className="profileImage">
+                <img src = {face1} className="circle1" alt="profile of payments" />
+              </div>
+
+              <div className="infoexpense">
+                <div className="expenseAmount">
+                  + $28,900
+                </div>
+                <div className="receivedFrom">
+                  Received from Michael V
+                </div>
+              </div>
+            </div>
+            <div className="floatwrap block2">
+              
+            </div>
+            <div className="floatwrap block3">
+              
+            </div>
+            <div className="floatwrap block4">
+              
+            </div>
           </div>
         </div>
 
@@ -197,11 +283,24 @@ function App() {
           <div className="hrWrapper4"></div>
 
           <div className="wrapper4check">
-            <div className="wrapper4list">Get Overview at a glance</div>
-            <div className="wrapper4list">Deoposit funds easily, securlity</div>
-            <div className="wrapper4list">Get Live Support</div>
+            <div className="wrapper4list">
+              {/* <span> */}
+              <img src = {orangetickIcon} className="orangetick" alt="orange tick icon" />
+              Get Overview at a glance
+              {/* </span> */}
+            </div>
+            <div className="wrapper4list">
+              <img src = {orangetickIcon} className="orangetick" alt="orange tick icon" />
+              Deoposit funds easily, securlity
+            </div>
+            <div className="wrapper4list">
+              <img src = {orangetickIcon} className="orangetick" alt="orange tick icon" />
+              Get Live Support
+            </div>
             
           </div>
+
+
           
         </div>
         
@@ -221,6 +320,9 @@ function App() {
               </div>
 
               <div className = "wrapper5left2">
+                <div className="quoteIcon">
+                  <img src = {quoteIcon}/>
+                </div>
                 <div className ="leftParagraph">
                   Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows.
                 </div>
@@ -242,6 +344,9 @@ function App() {
 
               </div>
             </div>
+            <img src = {dash1} className="dash1" alt="background line" />
+            <img src = {card2} className="handcard2" alt="a hand holding card " />
+            <img src = {bargraph} className="bargraph" alt="orange tick icon" />
       </div>
 
       <div className="wrapper6Container">
@@ -286,6 +391,7 @@ function App() {
             </div>
 
             <div className="subHeadingStat">
+              <img className="smallicon1" src = {manIcon} alt="man icon"/>
               Active Users
             </div>
           </div>
@@ -295,6 +401,7 @@ function App() {
             </div>
 
             <div className="subHeadingStat">
+              <img className="smallicon1" src = {starIcon} alt="star icon"/>
               5-Stars Reviews
             </div>
           </div>
@@ -304,6 +411,7 @@ function App() {
             </div>
 
             <div className="subHeadingStat">
+              <img className="smallicon1" src = {starIcon} alt="star icon"/>
               Transactions
             </div>
           </div>

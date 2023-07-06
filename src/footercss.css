@@ -132,10 +132,12 @@ a{
 
 .footerIcon{
     display: flex;
-    justify-content: space-between;
-    max-width: 228px;
+    /* justify-content: space-between; */
+    /* max-width: 228px; */
 }
-
+.footerIcon div{
+    padding-right: 15.99px ;
+}
 .mainFooterContainer{
     margin: 150px 117px 58px 121px;
 }
