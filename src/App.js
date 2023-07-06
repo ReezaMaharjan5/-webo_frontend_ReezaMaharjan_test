@@ -117,9 +117,9 @@ function App() {
 
         {/* the content of nav bar */}
           <div className="navBarContainer">
-            <div className="menuBar2">
+            {/* <div className="menuBar2">
               <img src={menuIcon} alt="MENU ICON" />
-            </div>
+            </div> */}
             <div className="navLogoImage">
               <img src={Vector} alt="logo of AR SHAKIR" />
             </div>
